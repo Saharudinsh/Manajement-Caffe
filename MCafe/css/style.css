@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background-image: url(../images/bg1.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    color: #fff;
+    background: #008080;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    box-shadow: 0 3px 20px rgba(0,0,0,0.4);
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.666);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    background: #008080;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+}
+.container .form form .button:hover{
+    background: #ffffff;
+    color: #098585;
+    border-color: #059191 ;
+
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #06c7c7;
+}
+
+
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}

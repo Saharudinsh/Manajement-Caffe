@@ -1,0 +1,131 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+color: black;
+}
+
+/*btn back to top*/
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+
+
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: rgb(0, 0, 0); /* Set a background color */
+	color: white; /* Text color */
+	font-size: 18px; /* Increase font size */
+  }
+#btn-back-to-top:hover {
+	background-color: rgb(255, 255, 255); 
+	color: black;
+	
+  }
+/*akhir btn back to top*/
+
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(images/bg3.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	color: rgb(255, 255, 255);
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: white;
+	width: 400px;
+	border-width: 3px;
+}
+/*Akhir Jumbotron*/
+
+/*Navbar*/
+.navbar {
+	margin-top: -35px;
+
+}
+.navbar .nav .nav-link {
+	color: white;
+}
+
+.navbar .nav .nav-link:hover {
+	color: orange;
+}
+
+
+.navbar .nav .nav-link.active{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-brand  {
+	font-size: 30px;
+	padding-top: 0;
+padding-bottom: 0;
+}
+
+.navbar .navbar-jam  {
+	font-size: 25px;
+	padding-top: 0;
+padding-bottom: 0;
+}
+.navbar .navbar-nav  {
+	font-size: 24px;	
+
+}
+
+.navbar .nav .dropdown-item  {
+	text-align: right  ;
+	background-color: none!important;
+}
+
+.navbar .nav .dropdown-item.active{
+	background-color: rgba(146, 134, 134, 0)!important;
+	color: rgb(124, 120, 115) !important;
+}
+.navbar .nav .dropdown-item:hover  {
+	color: orange !important;
+	background-color: rgba(0, 0, 0, 0)!important;
+	text-align: right  !important;
+}
+
+
+/*Akhir Navbar*/
+
+/*Footer*/
+.footer {
+	margin-top: 100px;
+	border-width: 3px;
+}
+
+.footer-body {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+/*Akhir Footer*/
+
+/*Home*/
+.judul {
+	margin-bottom: 120px;
+}
+
+.card-img:hover {
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);	
+}
+
+/*Akhir Home*/
